@@ -1,0 +1,19 @@
+<div id="post-stream">
+  <h4 ng-hide="authenticated">Timeclock</h4>
+  <p class="navbar-right navbar-text" ng-hide="authenticated">
+    Timeclock is easy way to understand your time at work. If you do not know how much time you are spenting at work, this is your app.
+  </p>
+  <div ng-show="authenticated">
+    <div>
+        <h2>Register a work day</h2>
+        <a href="#/days">Register</a>
+    </div>
+    <div>
+      <h2>Status</h2>
+      <label>General Status:</label>
+      <label>{{generalStatus}}</label></div><br/>
+      <label>Month Status:</label>
+      <label>{{monthlyStatus}}</label>
+    </div>
+  </div>
+</div>

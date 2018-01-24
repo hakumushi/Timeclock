@@ -1,0 +1,15 @@
+<form class="form-days" ng-submit="days()">
+  <h2>Register</h2>
+  <p class="text-warning">{{error_message}}</p>
+  <label>Day</label><br/>
+  <input type="date" ng-model="day.day" placeholder="Enter" class="form-control"><br>
+  <label>Enter</label><br/>
+  <input type="time" ng-model="day.inputs.enter" placeholder="Enter" class="form-control"><br>
+  <label>Meal In</label><br/>
+  <input type="time" ng-model="day.inputs.mealin" placeholder="Lunch" class="form-control"><br>
+  <label>Meal Out</label><br/>
+  <input type="time" ng-model="day.inputs.mealout" placeholder="Back to work" class="form-control"><br>
+  <label>Out</label><br/>
+  <input type="time" ng-model="day.inputs.out" placeholder="Out" class="form-control"><br>
+  <input type="submit" value="Register" class="btn btn-primary" />
+</form>

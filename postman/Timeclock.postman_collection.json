@@ -1,0 +1,779 @@
+{
+	"owner": "2172763",
+	"lastUpdatedBy": "2172763",
+	"lastRevision": 2375139182,
+	"team": null,
+	"id": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+	"name": "Timeclock",
+	"description": "A solution to understand your time at work.",
+	"folders_order": [
+		"104baacf-ca48-22ef-2ade-d2c63e65370b"
+	],
+	"order": [],
+	"folders": [
+		{
+			"owner": "2172763",
+			"lastUpdatedBy": "2172763",
+			"lastRevision": 2387534879,
+			"folder": "104baacf-ca48-22ef-2ade-d2c63e65370b",
+			"id": "01a47fe1-144a-7aa2-4976-9bdf47a8a4bf",
+			"name": "days",
+			"description": "",
+			"order": [
+				"13f3fc0b-732b-f3d8-0fa5-3e12f41c1b18",
+				"67ff189d-db93-e3ae-1fbf-e6c6e7bb9564",
+				"5cdb5092-35a6-a3b6-88ec-d2b796ed3371",
+				"1c456f61-ae0e-bdb1-6aa6-44d06d1b7b6e",
+				"f3182ae6-7fc9-cf67-a5d6-8d70fd832e30",
+				"5c22898f-6ff4-f50a-6cd4-4cdb32646803",
+				"b6e29544-a82e-54ff-2bd1-07e16b97d2d8",
+				"26a971e6-c73e-4e12-0efc-4e5f48868c35"
+			],
+			"folders_order": []
+		},
+		{
+			"owner": "2172763",
+			"lastUpdatedBy": "2172763",
+			"lastRevision": 2375139166,
+			"folder": null,
+			"id": "104baacf-ca48-22ef-2ade-d2c63e65370b",
+			"name": "timeclock",
+			"description": "",
+			"order": [],
+			"folders_order": [
+				"25891684-b290-7cdc-0d03-72ea60bcdda7",
+				"01a47fe1-144a-7aa2-4976-9bdf47a8a4bf"
+			]
+		},
+		{
+			"owner": "2172763",
+			"lastUpdatedBy": "2172763",
+			"lastRevision": 2467343388,
+			"folder": "104baacf-ca48-22ef-2ade-d2c63e65370b",
+			"id": "25891684-b290-7cdc-0d03-72ea60bcdda7",
+			"name": "users",
+			"description": "",
+			"order": [
+				"c84f8cac-0933-bb51-1e76-118bda356b87",
+				"bcdb66a5-84e0-d714-6236-acaba9818227",
+				"f2d492e4-ca4f-3b08-6262-a41d56a5f05d",
+				"0b13fc9c-3325-1a7b-20a9-f86134f3bf4e",
+				"5b64ad68-a7d6-6d46-b684-4c5137355171",
+				"e21fcb5e-71b1-7fbc-ee08-6f0bd6dd3efd"
+			],
+			"folders_order": []
+		}
+	],
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "0b13fc9c-3325-1a7b-20a9-f86134f3bf4e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/login",
+			"folder": "25891684-b290-7cdc-0d03-72ea60bcdda7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "paulo2@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509819024114,
+			"name": "/login",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "13f3fc0b-732b-f3d8-0fa5-3e12f41c1b18",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/days",
+			"folder": "01a47fe1-144a-7aa2-4976-9bdf47a8a4bf",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "paulo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "paulo@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hours_per_day",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509820001492,
+			"name": "/days",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "1c456f61-ae0e-bdb1-6aa6-44d06d1b7b6e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/get_status_time_by_id/<id>",
+			"folder": "01a47fe1-144a-7aa2-4976-9bdf47a8a4bf",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "paulo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "paulo@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hours_per_day",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509820117237,
+			"name": "/get_status_time_by_id/<id>",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "26a971e6-c73e-4e12-0efc-4e5f48868c35",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/days/<id>",
+			"folder": "01a47fe1-144a-7aa2-4976-9bdf47a8a4bf",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "name",
+					"value": "paulo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "paulo@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hours_per_day",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509820153711,
+			"name": "/days /<id>",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "5b64ad68-a7d6-6d46-b684-4c5137355171",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTkyNTl9.4w0WhS_cXk1W9VY3SyAPxfLvVIvzXnzI1rCeebNy1pg\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTkyNTl9.4w0WhS_cXk1W9VY3SyAPxfLvVIvzXnzI1rCeebNy1pg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/users/<id>",
+			"folder": "25891684-b290-7cdc-0d03-72ea60bcdda7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "Juino",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "juino@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "Senha1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hours_per_day",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509819902572,
+			"name": "/users/<id>",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "5c22898f-6ff4-f50a-6cd4-4cdb32646803",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/days",
+			"folder": "01a47fe1-144a-7aa2-4976-9bdf47a8a4bf",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509820135837,
+			"name": "/days",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": [],
+			"rawModeData": "{ \"day\": \"2017-10-11T00:00:00.000Z\", \"user_id\": \"59dd696a57819a304c2d0bee\", \"status\": 1, \"inputs\": [\r\n            { \"enter\": \"2017-10-11T08:00:00.000Z\", \"out\": \"2017-10-11T12:00:00.000Z\", \"type\": 0 },\r\n            { \"enter\": \"2017-10-11T12:00:00.000Z\", \"out\": \"2017-10-11T13:00:00.000Z\", \"type\": 1 },\r\n            { \"enter\": \"2017-10-11T13:00:00.000Z\", \"out\": \"2017-10-11T21:00:00.000Z\", \"type\": 0 } ]}      "
+		},
+		{
+			"id": "5cdb5092-35a6-a3b6-88ec-d2b796ed3371",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/get_days_by_user/<id>",
+			"folder": "01a47fe1-144a-7aa2-4976-9bdf47a8a4bf",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "paulo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "paulo@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hours_per_day",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509820106151,
+			"name": "/get_days_by_user/<id>",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "67ff189d-db93-e3ae-1fbf-e6c6e7bb9564",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/days/<id>",
+			"folder": "01a47fe1-144a-7aa2-4976-9bdf47a8a4bf",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "paulo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "paulo@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hours_per_day",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509820078098,
+			"name": "/days /<id>",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "b6e29544-a82e-54ff-2bd1-07e16b97d2d8",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/days/<id>",
+			"folder": "01a47fe1-144a-7aa2-4976-9bdf47a8a4bf",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509820144359,
+			"name": "/days /<id>",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": [],
+			"rawModeData": "{\r\n  \"Created_date\": \"2017-10-12T08:36:58.596Z\"\r\n}"
+		},
+		{
+			"id": "bcdb66a5-84e0-d714-6236-acaba9818227",
+			"headers": "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/users/<id>",
+			"folder": "25891684-b290-7cdc-0d03-72ea60bcdda7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509819886721,
+			"name": "/users/<id>",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "c84f8cac-0933-bb51-1e76-118bda356b87",
+			"headers": "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTkyNTl9.4w0WhS_cXk1W9VY3SyAPxfLvVIvzXnzI1rCeebNy1pg\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTkyNTl9.4w0WhS_cXk1W9VY3SyAPxfLvVIvzXnzI1rCeebNy1pg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/users",
+			"folder": "25891684-b290-7cdc-0d03-72ea60bcdda7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509819754937,
+			"name": "/users",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "e21fcb5e-71b1-7fbc-ee08-6f0bd6dd3efd",
+			"headers": "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/users/<id>",
+			"folder": "25891684-b290-7cdc-0d03-72ea60bcdda7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509819953487,
+			"name": "/users/<id>",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "f2d492e4-ca4f-3b08-6262-a41d56a5f05d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/users",
+			"folder": "25891684-b290-7cdc-0d03-72ea60bcdda7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "paulo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "paulo@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hours_per_day",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509800798840,
+			"name": "/users",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		},
+		{
+			"id": "f3182ae6-7fc9-cf67-a5d6-8d70fd832e30",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhdWxvMkBtYWlsLmNvbSIsIm5hbWUiOiJwYXVsbzIiLCJfaWQiOiI1OWZkZjc1YTYzM2VkMDFmNzgwNWIyNjgiLCJpYXQiOjE1MDk4MTk4MjR9.1WqVJLo4FHBVDcrVwbORbWhzVIPuqmwrQmjsm0WoEHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/get_status_time/59dd696a57819a304c2d0bee&2017-10-02T00:00:00.000Z&2017-10-06T23:59:59.000Z",
+			"folder": "01a47fe1-144a-7aa2-4976-9bdf47a8a4bf",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "paulo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "paulo@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hours_per_day",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509820125261,
+			"name": "/get_status_time/<id>&<start>&<end>",
+			"description": "",
+			"collectionId": "198e751c-fc77-0f5e-c895-4cdfc17016fd",
+			"responses": []
+		}
+	]
+}

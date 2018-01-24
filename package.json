@@ -1,0 +1,25 @@
+{
+  "name": "timeclock",
+  "version": "1.0.0",
+  "description": "It is a time clock to punch your cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "angular-route": "^1.6.6",
+    "bcrypt": "^1.0.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "moment": "^2.19.1",
+    "mongoose": "^4.12.1",
+    "path": "^0.12.7",
+    "promise": "^8.0.1"
+  }
+}
