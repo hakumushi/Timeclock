@@ -1,6 +1,5 @@
 # TimeClock - Gerenciando suas horas.
 
-### Descrição do projeto ###
+### Ferramenta de ponto ###
 
-O projeto mais transado das américas!
-
+Uma maneira de gerenciar suas horas extras.
