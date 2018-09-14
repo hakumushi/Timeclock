@@ -4,9 +4,13 @@
   "description": "Simple project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": "https://github.com/mushi720/Timeclock.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mushi720/Timeclock.git"
+  },
   "author": "Paulo Franca",
   "license": "ISC",
   "dependencies": {
@@ -22,5 +26,10 @@
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mushi720/Timeclock/issues"
+  },
+  "homepage": "https://github.com/mushi720/Timeclock#readme",
+  "keywords": []
 }
